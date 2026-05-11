@@ -11,7 +11,7 @@ on:
 jobs:
   matrix-pip:
     name: Train and save the model
-    run: ubuntu-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python: ['3.12','3.13']
